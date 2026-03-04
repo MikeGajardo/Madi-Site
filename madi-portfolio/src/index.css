@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500;600;700&family=Mrs+Saint+Delafield&display=swap');
+
+:root {
+  background-color: #FFF1F6;
+  color: #4A5568;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.script {
+  font-family: 'Mrs Saint Delafield', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.floral-pattern {
+  background-image: radial-gradient(#C0C0C0 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  background-color: #FFF1F6;
+  opacity: 0.1;
+}
+
+.fairy-glow {
+  filter: drop-shadow(0 0 8px rgba(240, 98, 146, 0.3));
+}
+
+.magical-border {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.sparkle-asset {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Base custom styles */
+::selection {
+  background-color: rgba(240, 98, 146, 0.2);
+  color: #4A148C;
+}
