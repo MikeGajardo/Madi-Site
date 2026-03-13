@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import { Sparkles } from './FairyDust';
 import { ButterflySwarm } from './Butterfly';
@@ -80,14 +81,14 @@ export function Hero() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.5 }}
                 >
-                    <a href="#work">
+                    <Link to="/about">
                         <Button className="px-12 py-5 text-xl relative group overflow-hidden font-sans italic">
                             <span className="relative z-10">Wander through the garden</span>
                             <motion.div
                                 className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-500"
                             />
                         </Button>
-                    </a>
+                    </Link>
                 </motion.div>
             </div>
         </section>
