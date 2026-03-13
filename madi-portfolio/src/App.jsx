@@ -8,7 +8,7 @@ import { Contact } from './components/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Madi-Site/">
       <Layout>
         <Routes>
           <Route path="/" element={<Hero />} />
